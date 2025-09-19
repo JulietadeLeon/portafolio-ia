@@ -2,7 +2,7 @@
 
 ## ¿Qué es Machine Learning?
 
-![.](assets/image.png)
+![.](../../assets/image_UT1_a_1.png)
 
 
 ## 3 definiciones de Machine Learning
@@ -74,7 +74,8 @@ Desarrollado por Google, TensorFlow es una de las bibliotecas de IA de uso gener
 - evaluación
 - despliegue
 
-[](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdVQuMvGmZuhBAhoMgRjS40sD9GhilfvbMmbkgaykDxnbKuW1dvGUfHHXRC4dvqoLJUJtVTeFniwm3pit49yog_1_w0-Su6Wqjh5noNklP1DEQD8spOBtGhGKUKfLjyh4talsbdDA?key=FN5pMZSQ79RaqUo1B27ldQ)
+![.](../../assets/image_UT1_a_10.png)
+
 
 De manera simple, Machine Learning consiste en enseñar a las computadoras a aprender patrones de datos con el fin de realizar predicciones.
 
@@ -94,7 +95,7 @@ El proceso de Machine Learning se basa en tres pasos principales:
 
 **Ejemplo:** después de analizar 1000 casas vendidas, el algoritmo es capaz de predecir el precio de una casa nueva.
 
-![image.png](image%201.png)
+![.](../../assets/image_UT1_a_2.png)
 
 ## **EDA**
 
@@ -201,19 +202,45 @@ plt.show()
     - Ejemplo: `Pclass` y `Fare` están negativamente correlacionados (a menor clase, mayor tarifa).
     - También se puede ver qué variables están más ligadas a `Survived`.
 
-![image.png](image%202.png)
+![.](../../assets/image_UT1_a_3.png)
 
 ## Limpieza
 
+```python
+🚫 PASO 1: Manejar valores faltantes (imputación)
+df['Embarked'] = df['Embarked'].fillna(df['Embarked'].mode()[0])   # Valor más común
+df['Fare']     = df['Fare'].fillna(df['Fare'].median())            # Mediana
+df['Age']      = df['Age'].fillna(df.groupby(['Sex','Pclass'])['Age'].transform('median'))
+```
+
 ## Feature Engineering
 
+```python
+df['FamilySize'] = df['SibSp'] + df['Parch'] + 1
+df['IsAlone']    = (df['FamilySize'] == 1).astype(int)
+
+df['Title'] = df['Name'].str.extract(',\s*([^.]+)\.')
+rare_titles = df['Title'].value_counts()[df['Title'].value_counts() < 10].index
+df['Title'] = df['Title'].replace(rare_titles, 'Rare')
+```
+
 ## Features finales
+
+```python
+# 🧩 PASO 3: Preparar datos para el modelo
+features = ['Pclass','Sex','Age','Fare','Embarked','FamilySize','IsAlone','Title','SibSp','Parch']
+X = df[features].copy()
+y = df['Survived']
+
+X.shape, y.shape
+```
 
 # Repaso TA4
 
 ## Diferencias claves
 
-![image.png](image%203.png)
+![.](../../assets/image_UT1_a_4.png)
+
 
 ## Contaminacion de datos (Data Leakage)
 
@@ -263,7 +290,7 @@ Necesitamos múltiples "opiniones”
 • Promedio de K resultados = estimación robusta
 • Desviación estándar = estabilidad del modelo
 
-![image.png](image%204.png)
+![.](../../assets/image_UT1_a_5.png)
 
 ## Comparación de Modelos
 
@@ -299,7 +326,7 @@ Necesitamos múltiples "opiniones”
 
 # Problemas de escala
 
-![image.png](image%205.png)
+![.](../../assets/image_UT1_a_6.png)
 
 # Normalización
 
@@ -323,7 +350,7 @@ Dos formas rápidas de “ajustar el volumen”.
 - Mejor cuando hay valores raros.
 - Suele ayudar a optimizadores basados en gradiente.
 
-![image.png](image%206.png)
+![.](../../assets/image_UT1_a_7.png)
 
 # Principal Component Analysis (PCA)
 
@@ -335,7 +362,7 @@ PCA es un resumen inteligente: te deja mirar muchos datos a la vez desde el mejo
 
 Imaginá una nube de puntos. Giramos el plano para mirar por la dirección donde la nube cambia más (PC1). La segunda mejor dirección, en 90°, es PC2.
 
-![image.png](image%207.png)
+![.](../../assets/image_UT1_a_8.png)
 
 **Cómo se calcula cada PC**
 
@@ -388,7 +415,7 @@ mejores columnas y descarta el resto.
 
 # K-Means: espacio, posición y distancia
 
-![image.png](image%208.png)
+![.](../../assets/image_UT1_a_9.png)
 
 **¿Qué es el espacio?**
 
