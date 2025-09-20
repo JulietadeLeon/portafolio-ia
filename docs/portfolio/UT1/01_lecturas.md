@@ -31,6 +31,3 @@ Kaggle:
 - Scikit-learn User Guide: [https://scikit-learn.org/stable/user_guide.html](https://scikit-learn.org/stable/user_guide.html)
 - Jupyter notebooks: [https://docs.jupyter.org/en/latest/](https://docs.jupyter.org/en/latest/)
 
-[**Resumen Hands-On Machine Learning**](https://www.notion.so/Resumen-Hands-On-Machine-Learning-2556a4e16635809b8253c25bd2794bfc?pvs=21)
-
-[Resumen Master Machine Learning Algorithms](https://www.notion.so/Resumen-Master-Machine-Learning-Algorithms-2556a4e166358052a596d1a446958a2d?pvs=21)
