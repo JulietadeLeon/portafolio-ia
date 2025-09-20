@@ -12,6 +12,6 @@ date: 2025-01-01
 Bienvenido al portafolio del curso. Aquí se documentará el progreso, evidencias y reflexiones a lo largo del semestre.
 
 ## Contenido principal
-- [Acerca de mí](docs/acerca.md)  
+- [Acerca de mí](acerca.md)  
 - [Portafolio](portfolio/index.md)  
-- [Recursos](docs/recursos.md)  
+- [Recursos](recursos.md)  
