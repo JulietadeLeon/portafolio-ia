@@ -3,11 +3,15 @@ title: "Portafolio — Inicio"
 date: 2025-01-01
 ---
 
-# Portafolio — Inicio
+# Portafolio — FUNDAMENTOS DEL APRENDIZAJE AUTOMÁTICO
 
-Bienvenido al portafolio del curso. Aquí documentarás tu progreso,
-evidencias y reflexiones a lo largo del semestre.
+**Alum.:** Julieta de León  
+**Prof.:** Juan Francisco Kurucz  
+**Fecha:** 2do semestre 2025
 
-- Revisa la sección "Acerca de mí" para presentarte.
-- Crea entradas en `Portfolio` usando la plantilla provista.
-- Mantén objetivos, actividades y evidencias claros por entrada.
+Bienvenido al portafolio del curso. Aquí se documentará el progreso, evidencias y reflexiones a lo largo del semestre.
+
+## Contenido principal
+- [Acerca de mí](acerca.md)  
+- [Portafolio](portfolio/)  
+- [Recursos](recursos.md)  
