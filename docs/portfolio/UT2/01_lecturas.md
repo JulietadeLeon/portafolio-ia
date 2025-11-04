@@ -3,6 +3,18 @@ title: "Lecturas"
 date: 2025-01-01
 ---
 
+# Aprendizajes al completar UT2: 
+
+• Comprender la arquitectura de perceptrones multicapa y funciones de activación
+
+• Desarrollar MLPs avanzados usando PyTorch Lightning para aplicaciones reales
+
+• Aplicar técnicas de optimización (SGD, AdamW) y entender backpropagation
+
+• Implementar técnicas de regularización y visualización con TensorBoard/Mlflow
+
+• Experimentar con optimizadores avanzados y learning rate scheduling
+
 # Lecturas
 
 ## **Lecturas minimas (Evaluacion el 16/09):**

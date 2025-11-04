@@ -3,6 +3,22 @@ title: "Lecturas"
 date: 2025-01-01
 ---
 
+# Aprendizajes al completar UT1: 
+
+• Comprender los fundamentos de Machine Learning y diferenciarlo de IA y Deep Learning
+
+• Implementar EDA (Exploratory Data Analysis) completo en datasets organizacionales
+
+• Desarrollar pipelines de ML supervisado (regresión lineal/logística) y no supervisado (clustering)
+
+• Aplicar técnicas de validación cruzada y optimización de hiperparámetros
+
+• Implementar feature engineering y reducción de dimensionalidad con PCA
+
+• Evaluar modelos usando métricas apropiadas para contextos organizacionales
+
+• Resolver problemas reales de predicción y segmentación en organizaciones
+
 # Lecturas
 
 ### **Lecturas minimas:**

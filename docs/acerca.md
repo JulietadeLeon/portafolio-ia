@@ -7,8 +7,6 @@ date: 2025-01-01
 
 Mi nombre es Julieta de León tengo 20 años y actualmente me encuentro cursando tercer año de la Licenciatura en Dirección de Empresas en la Universidad Católica del Uruguay, donde también estoy cursando el minor en Ciencia de Datos. Un mundo en el que me estoy adentrando con gran interés. 
 
-Estoy realizando mi primera experiencia laboral en el área de administración y contabilidad. 
-
 Estoy entusiasmada por los desafíos y oportunidades que me esperan y lista para contribuir con mi pasión y conocimientos en cada equipo o proyecto en el que participe.
 
 ## Objetivos del curso

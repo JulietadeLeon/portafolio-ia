@@ -12,6 +12,6 @@ date: 2025-01-01
 
 ## UT2: Deep Learning Foundations
 
-- Lecturas: 
-- Apuntes: 
+- Lecturas: [UT2_Lecturas](portfolio/UT2/01_lecturas.md)
+- Apuntes: [UT2_Apuntes](portfolio/UT2/02_apuntes.md)
 

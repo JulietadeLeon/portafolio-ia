@@ -14,4 +14,19 @@ date: 2025-01-01
 - Práctica 6 - Clustering y PCA - Mall Customer Segmentation: [UT1_Práctica_6](./UT1/08_p6.md)
 
 ## UT2: Deep Learning Foundations
+- Páctica 7 - De Perceptrón a Redes Neuronales: [UT2_Práctica_7](./UT2/03_p7.md)
+- Práctica 8 - Clustering y PCA - Mall Customer Segmentation: [UT2_Práctica_8](./UT2/04_p8.md)
+
+## UT3: Computer Vision 
+- Práctica 9 - CNNs y Transfer Learning con TensorFlow/KerasTarea: [UT3_Práctica_9](./UT3/03_p9.md)
+- Práctica 10 - Data Augmentation Avanzado & ExplicabilidadTarea: [UT3_Práctica_10](./UT3/04_p10.md)
+- Práctica 11 - YOLOv8 Fine-tuning & TrackingTarea: [UT3_Práctica_11](./UT3/05_p11.md)
+- Práctica 12 - SAM Segmentation - Pretrained vs Fine-tuned [UT3_Práctica_12](./UT3/06_p12.md)
+
+## UT4: NLP y LLMs 
+- 
+- 
+
+## UT5: MLOps
+- 
 - 
