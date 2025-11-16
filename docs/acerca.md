@@ -3,7 +3,7 @@ title: "Acerca de mí"
 date: 2025-01-01
 ---
 
-# Acerca de mí
+## Acerca de mí
 
 Mi nombre es Julieta de León tengo 20 años y actualmente me encuentro cursando tercer año de la Licenciatura en Dirección de Empresas en la Universidad Católica del Uruguay, donde también estoy cursando el minor en Ciencia de Datos. Un mundo en el que me estoy adentrando con gran interés. 
 
