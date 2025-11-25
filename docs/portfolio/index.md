@@ -24,9 +24,9 @@ date: 2025-01-01
 - Práctica 12 - SAM Segmentation - Pretrained vs Fine-tuned [UT3_Práctica_12](./UT3/06_p12.md)
 
 ## UT4: NLP y LLMs 
-- 
-- 
+- Práctica 13 - Fine-tuning de Transformers para Clasificación Ofensiva: [UT4_Práctica_13](./UT4/02_p13.md)
+- Práctica 14 - LLMs con LangChain (OpenAI) - Prompting, Plantillas y Salida Estructurada (ES): [UT4_Práctica_14](./UT4/03_p14.md)
+- Práctica 14.2 - Agentes con LangGraph - RAG, Tools y Memoria Conversacional [UT4_Práctica_14.2](./UT4/04_p14.2.md.md)
 
 ## UT5: MLOps
-- 
-- 
+- Práctica 15 - [UT5_Práctica_15](./UT5/02_p15.md)
