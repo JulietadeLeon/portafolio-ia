@@ -15,3 +15,14 @@ date: 2025-01-01
 - Lecturas: [UT2_Lecturas](portfolio/UT2/01_lecturas.md)
 - Apuntes: [UT2_Apuntes](portfolio/UT2/02_apuntes.md)
 
+## UT3: Computer Vision
+
+- Lecturas: [UT3_Lecturas](portfolio/UT3/01_lecturas.md)
+
+## UT4: NLP y LLMs
+
+- Lecturas: [UT4_Lecturas](portfolio/UT4/01_lecturas.md)
+
+## UT5: MLOps
+
+- Lecturas: [UT5_Lecturas](portfolio/UT5/01_lecturas.md)
