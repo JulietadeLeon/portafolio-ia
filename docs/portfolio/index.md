@@ -29,4 +29,8 @@ date: 2025-01-01
 - Práctica 14.2 - Agentes con LangGraph - RAG, Tools y Memoria Conversacional [UT4_Práctica_14.2](./UT4/04_p14_2.md)
 
 ## UT5: MLOps
-- Práctica 15 - [UT5_Práctica_15](./UT5/02_p15.md)
+- Práctica 16 - [UT5_Práctica_16](./UT5/02_p16.md)
+- Práctica 17 - [UT5_Práctica_17](./UT5/03_p17.md)
+
+## Cierre portafolio
+- [Cierre final](./Cierre/cierre.md)
