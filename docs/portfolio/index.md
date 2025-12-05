@@ -33,4 +33,4 @@ date: 2025-01-01
 - Práctica 17 - [UT5_Práctica_17](./UT5/03_p17.md)
 
 ## Cierre portafolio
-- [Cierre final](./Cierre/cierre.md)
+- [Cierre final](./cierre/cierre.md)
